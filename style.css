@@ -1,0 +1,90 @@
+@font-face {
+    font-family: Inter;
+    src: url("./Inter-Regular.ttf");
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px 10px 30px;
+}
+
+.chose_btn{
+    background-color: rgb(254, 146, 12);
+    padding: 15px;
+    border-radius: 25px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    margin-right: 10px;
+    font-family: Inter;
+}
+
+.download_btn{
+    background-color: white;
+    padding: 15px;
+    border-radius: 25px;
+    border: none;
+    color: black;
+    font-size: 16px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    font-family: Inter;
+}
+
+.input{
+    display: none;
+}
+
+.element{
+    display: flex;
+    align-items: center;
+    font-family: Inter;
+    background-color: rgb(111, 111, 224);
+    margin-bottom: 10px;
+    padding: 10px 0px 10px 0px;
+    width: 100%;
+    color: white;
+    padding-left: 30px;
+}
+
+.file{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container_header{
+    margin-bottom: 10px;
+}
+
+.file_image{
+    height: 30px;
+    width: 30px;
+}
+
+.remove_btn{
+    background-color: rgb(214, 76, 76);
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    font-family: Inter;
+    float: right;
+    margin-left: 10px;
+    color: white;
+}
